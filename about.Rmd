@@ -1,0 +1,60 @@
+---
+title: "About: Education & Professional Background"
+---
+
+**EDUCATION**
+<br>
+**Columbia University Mailman School of Public Health** - New York, NY -- May 2025
+<br>
+***Master of Science, Biostatistics; Public Health Data Science Track***
+<br>
+Coursework In-Progress: Probability, Data Science I, Biostatistical Methods I, Principles of Epidemiology
+<br>
+Future Coursework: Statistical Inference, Statistical Computing with SAS, Clinical Trial Methodology
+<br>
+<br>
+**University of North Carolina at Chapel Hill** - Chapel Hill, NC -- May 2023                
+***Bachelor of Science, Quantitative Biology; Minors: Data Science, Chemistry***
+<br>
+Honors and Awards: Dean’s List (2019 Fall, 2023 Spring)		Cumulative GPA: 3.53 / 4.00
+Relevant Coursework:  Linear Algebra for Applications, Data Structures, Foundations of Programming, Data Models and Inference, Multivariable Calculus I,  Sequence-based Functional Genomics, Quantitative Personalized Genomics
+<br>
+
+**SKILLS, LANGUAGES, AND CERTIFICATIONS**
+<br>
+***Data Analysis***: HarvardX Statistics and R, Java, Typescript, Python, C, MATLAB, Vicon
+<br>
+<br>
+***Computer***: Microsoft Office (Word, Powerpoint, Excel), Adobe Creative Suite (Premiere, Audition, After Effects), EPIC
+Languages: Intermediate French, Intermediate Tamil
+<br>
+<br>
+**PROFESSIONAL EXPERIENCE**
+<br>
+***UNC Department of Allied Health Sciences - Research Assistant*** -- Chapel Hill, NC | Nov 2021 - May 2023
+<br>
+- Accurately collected, organized, and analyzed Vicon motion-capture data collected from an exoskeleton controller used to aid those who have experienced a stroke and have difficulty walking, with over 100 hours completed (Interdisciplinary Human Movement Research Lab)
+<br>
+- Created a comfortable environment for study participants and rigorously maintained HIPAA protocol
+<br>
+
+***Aquity Solutions - Medical Scribe*** -- Ann Arbor, MI | May 2022 - March 2023
+<br>
+- Completed 64 hours of comprehensive medical scribe training in anatomy and medical terminology and worked with medical providers at Michigan Medicine
+<br>
+- Performed basic pre-chart review to prompt physicians based on earlier visit details
+<br>
+- Listened to and documented 20 patient encounters using EPIC, per week, took critical notes for medical providers, and reviewed pharmacy lab orders
+<br>
+<br>
+***KEY ACADEMIC PROJECT***
+<br>
+***BIOL 525, Sequence-based Functional Genomics Final Project*** -- Chapel Hill, NC | Nov 2022
+<br>
+- Studied differential gene expression and enriched pathways of both Alzheimer’s Disease (AD) and Mild Cognitive Impairment (MCI) using data obtained from ENCODE’s Rush Alzheimer’s study
+<br>
+- Characterized data using Fastqc and Multiqc analysis, and utilized STAR alignment, RSEM quantification to carry out DESeq, GO Ontology, and GSEA Enrichment analysis
+<br>
+- Determined that AD presented a differentially expressed gene and identified multiple signaling and biosynthesis pathways enriched in both AD and MCI which provide grounds for further research
+
+
