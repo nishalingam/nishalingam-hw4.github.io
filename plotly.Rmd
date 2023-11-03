@@ -1,0 +1,45 @@
+---
+title: "plotly"
+output: html_document
+date: "2023-10-31"
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(dplyr)
+
+library(plotly)
+```
+
+```{r}
+data("instacart")
+```
+
+```{r}
+instacart = 
+  instacart |> 
+  as_tibble()
+```
+
+```{r}
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n))|>
+  slice(1:25) |>
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
+```
+
+```{r}
+box_cart <- sample_n(instacart, 500) |>
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) |>
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box")
+
+box_cart
+
+```
+```{r}
+
+
+```
+
