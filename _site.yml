@@ -5,12 +5,17 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Plotly"
+      href: plotly.html
+    - text: "Dashboard"
+      href: flexdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<ncl2127@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/nishalingam/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/nisha-l-420462167/
+  
 output:
   html_document:
     theme: cerulean
