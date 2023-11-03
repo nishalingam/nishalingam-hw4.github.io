@@ -20,4 +20,5 @@ output:
   html_document:
     toc: true
     self_contained: true
-    theme: cerulean
+  github_document:
+    toc: true
