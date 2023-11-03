@@ -31,15 +31,17 @@ instacart |>
 ```
 
 ```{r}
-box_cart <- sample_n(instacart, 500) |>
+sample_n(instacart, 500) |>
   mutate(aisle = fct_reorder(aisle, order_hour_of_day)) |>
   plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box")
 
-box_cart
-
 ```
 ```{r}
-
-
+instacart |>
+  count(product_name) |> 
+  arrange(desc(n))|>
+  slice(1:25)|>
+  mutate(product_name = fct_reorder(product_name, n)) |> 
+  plot_ly(x = ~product_name, y = ~n, type = "scatter", mode = "markers", alpha = 0.5)
 ```
 

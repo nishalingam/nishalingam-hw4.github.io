@@ -8,29 +8,52 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+
+library(tidyverse)
+library(p8105.datasets)
+library(dplyr)
+
+library(plotly)
+
+data("instacart")
+
+instacart = 
+  instacart |> 
+  as_tibble()
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Number of Items in Each Aisle
 
 ```{r}
-
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n))|>
+  slice(1:25) |>
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Number of Items Ordered in Each Product Category
 
 ```{r}
-
+instacart |>
+  count(product_name) |> 
+  arrange(desc(n))|>
+  slice(1:25)|>
+  mutate(product_name = fct_reorder(product_name, n)) |> 
+  plot_ly(x = ~product_name, y = ~n, type = "scatter", mode = "markers", alpha = 0.5)
 ```
 
-### Chart C
+### Order Hour of Day for Each Aisle
 
 ```{r}
-
+sample_n(instacart, 500) |>
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) |>
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box")
 ```
 
